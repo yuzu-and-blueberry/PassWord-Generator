@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Karla';
+    src: url(Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(Inter-VariableFont_opsz\,wght.ttf);
+}
+.container {
+    width: 550px;
+    height: 550px;
+    background-color: #0284C7;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+#mainHead {
+    font-family: 'Karla';
+    width: 370px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #202938;
+    margin: 0 0 10px 0;
+}
+.innerContent {
+    padding: 110px 52px 0px 52px;
+}
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #202938;
+}
+
+#green {
+    color: #d9b374;
+    text-shadow: 2px 0px 3px black;
+}
+#quip {
+    margin: 0px;
+}
