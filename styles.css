@@ -9,7 +9,7 @@
 .container {
     width: 550px;
     height: 550px;
-    background-color: #0284C7;
+    background-color: #075985;
     border: 10px solid black;
     border-radius: 5px;
 }
@@ -19,7 +19,7 @@
     width: 370px;
     font-size: 40px;
     font-weight: 800;
-    color: #202938;
+    color: #1F2937;
     margin: 0 0 10px 0;
 }
 .innerContent {
@@ -29,13 +29,59 @@ p {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 20px;
-    color: #202938;
+    color: #1F2937;
 }
 
 #green {
-    color: #d9b374;
-    text-shadow: 2px 0px 3px black;
+    color: #FBBF24;
+    
 }
 #quip {
     margin: 0px;
+}
+
+#passwordBtn {
+    width: 220px;
+    font-family: 'Inter';
+    padding: 16px 13px;
+    background-color: #FBBF24;
+    border-radius: 10px;
+    border: none;
+    color:#1F2937;
+    font-size: 18px;
+    margin: 80px auto auto auto;
+}
+
+hr {
+    border-color: #FBBF24;
+    margin: 40px 0 0 0;
+}
+
+#genPass {
+    display:flex;
+    justify-content: space-between;
+    margin: 0 52px 0 52px;
+}
+
+#pass1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FBBF24;
+    width:210px;
+    height:40px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    border-radius: 10px;
+}
+#pass2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FBBF24;
+    width:210px;
+    height:40px;
+    text-align: center;
+    margin: 40px 0 0 0;
+    border-radius: 10px;
 }
