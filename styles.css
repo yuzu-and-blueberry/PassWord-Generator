@@ -50,7 +50,9 @@ p {
     color:#1F2937;
     font-size: 18px;
     margin: 80px auto auto auto;
+    cursor: pointer;
 }
+
 
 hr {
     border-color: #FBBF24;
