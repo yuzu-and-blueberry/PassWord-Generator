@@ -6,7 +6,7 @@ let pass2El = document.querySelector('#genpass2')
 function genPass() {
     let pass = ''
     let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!@#$%*'
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < 15; i++) {
         let char = Math.floor(Math.random() * characters.length + 1);
         pass += characters.charAt(char);
     }
